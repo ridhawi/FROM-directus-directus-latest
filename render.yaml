@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: directus
+    env: docker
+    plan: free
+    ports:
+      - 8055
